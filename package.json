@@ -1,5 +1,5 @@
 {
-  "name": "@keymux/promisrFS",
+  "name": "@keymux/promisrfs",
   "version": "0.1.0",
   "description": "A library which promisifies most of the functions available in the fs module",
   "main": "src/main.js",

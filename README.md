@@ -13,11 +13,11 @@ This module just forwards your arguments to the particular function available on
 ## Install
 
 ```bash
-npm install @keymux/promisrFS
+npm install @keymux/promisrfs
 ```
 
 ```bash
-yarn add @keymux/promisrFS
+yarn add @keymux/promisrfs
 ```
 
 ## Features
@@ -49,7 +49,7 @@ Promises to read a file from disk and return the contents.
 ##### Example
 
 ```js
-const { readFilePromise } = require("@keymux/promisrFS");
+const { readFilePromise } = require("@keymux/promisrfs");
 
 const path = require("path");
 
@@ -75,7 +75,7 @@ Promises to write a file to disk
 ##### Example
 
 ```js
-const { writeFilePromise } = require("@keymux/promisrFS");
+const { writeFilePromise } = require("@keymux/promisrfs");
 
 const path = require("path");
 
@@ -102,7 +102,7 @@ return writeFilePromise(filename, contents, options)
 // This example is meant to read a file, perform some transformation
 // and write the result
 
-const { readFilePromise, writeFilePromise } = require("@keymux/promisrFS");
+const { readFilePromise, writeFilePromise } = require("@keymux/promisrfs");
 
 const minimist = require("minimist");
 const path = require("path");
